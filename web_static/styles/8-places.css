@@ -14,6 +14,7 @@
     margin-bottom: 0px;
     flex: 0 1 100%;
 }
+
 .places > article {
     width: 390px;
     padding: 20px 20px 20px 20px;
@@ -38,7 +39,7 @@
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    border-radius: 50%;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +48,7 @@
     top: 10px;
     right: 20px;
 }
+
 .price_by_night > p {
     margin: 0 0 0 0;
 }
@@ -55,45 +57,46 @@
     align-self: center;
     height: 80px;
     width: 100%;
-    border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.max_guest, .number_rooms, .number_bathrooms {
-    width: 100px;
+.max_guest , .number_rooms, .number_bathrooms {
+    margin: auto 20px auto 10px;
     text-align: center;
+    position: relative;
+
 }
 
-.max_guest > p, .number_rooms > p, .number_bathrooms > p{
-    margin-top: auto;
-    margin-bottom: auto;
+.max_guest > p, .number_rooms > p, .number_bathrooms > p {
+    margin: auto 0 auto 10px;
 }
 
-.guest_image {
+.image_guest {
     margin-left: auto;
-    margin-right: auto;
-    height: 50px;
+    margin-top: auto;
     width: 50px;
+    height: 50px;
     background: url("../images/icon_group.png") no-repeat center;
 }
 
-.bed_image {
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
+.img_room {
+    margin-left: 25%;
+    margin-top: auto;
     width: 50px;
+    height: 50px;
     background: url("../images/icon_bed.png") no-repeat center;
 }
 
-.bath_image {
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
+.img_bathrooms {
+    margin-left: 25%;
+    margin-top: auto;
     width: 50px;
+    height: 50px;
     background: url("../images/icon_bath.png") no-repeat center;
 }
 
@@ -101,7 +104,8 @@
     margin-top: 20px;
     margin-bottom: 0px;
 }
+
 .description > p {
-    margin-top: 7px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

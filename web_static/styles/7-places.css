@@ -12,8 +12,9 @@
     padding-left: 20px;
     padding-top: 20px;
     margin-bottom: 0px;
-    flex: 0 1 100%;
+    flex: 0 3 100%;
 }
+
 .places > article {
     width: 390px;
     padding: 20px 20px 20px 20px;
@@ -26,4 +27,5 @@
 
 .places > article > h2 {
     font-size: 30px;
+    margin-top: 5px;
 }
